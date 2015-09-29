@@ -1,0 +1,12 @@
+import java.io.*;
+import java.util.*;
+public class Translator {
+   public static void main(String args[]) {
+   Scanner kbReader = new Scanner(System.in);
+      for (int i = 1; i > 0; i++) {
+         System.out.println("Translation " + i + ":\t");
+         String word = kbReader.nextLine();
+         System.out.println("\n" + word + "\n");
+      }
+   }
+}
